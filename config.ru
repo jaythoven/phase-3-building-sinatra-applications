@@ -1,11 +1,14 @@
 require 'sinatra'
+require_relative "./config/environment"
 
-class App < Sinatra::Base
+# class App < Sinatra::Base
 
-  get '/' do
-    'reload please!!!'
-  end
+#   get '/' do
+#     '<h2>Hello <em>World</em>!</h2>'
+#   end
   
-end
+# end
 
-run App
+# run App
+
+run ApplicationController
